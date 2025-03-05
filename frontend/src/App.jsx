@@ -42,6 +42,16 @@ async function handleDelete(id) {
     getTodos()
 }
 
+async function handleComplete(id) {
+  const foundTodo = todos.find(todo => todo._id == id)
+  foundTodo.completed = !foundTodo.completed
+  await fetch(`http://localhost:8080/api/todos/${id}`, {
+      method: 'PUT',
+      body: JSON.stringify(foundTodo)
+    })
+    getTodos()
+}
+
 console.log(todos)
 
   return (
@@ -54,6 +64,10 @@ console.log(todos)
       <ul>
         {todos.map(todo => 
         <li key={todo._id}>
+          <input type="checkbox" 
+          checked={todo.completed}
+          onChange={() => handleComplete(todo._id)}
+          />
           {todo.text}
           <button onClick={() =>  handleDelete(todo._id)}>X</button>
           </li>
