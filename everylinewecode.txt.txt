@@ -1,0 +1,50 @@
+# Every Line WE Code
+lyrics by D. Cheairs
+Inspired by SofDev 2025.03 Cohort
+(set to Every Breath You Take by The Police)
+
+every line we code
+when we Express and Node
+two times in Strict Mode
+brains overflow 
+we've been watching you 
+
+every git commit
+every merged conflict
+every ’/’ route hit
+all that bad typescript
+we've been watching you
+
+every console.log
+all the mental fog 
+through flexbox frogs 
+awkward dialogue
+we've been watching you 
+
+CHORUS {
+every function call
+each npm install 
+my code base breaks 
+with every validate }
+
+every parenthesis 
+every bracket and .this 
+algorithmists
+will the state persist?
+we've been watching you 
+
+every hook you tried
+every prop supplied
+every time we cried for Bob 55
+we've been watching you 
+
+the sandwich correlates
+eyes backward translocate 
+it's been really hard
+but it's been quite fun
+now we graduate
+
+did you use Tailwind? 
+did you use Zustand? 
+did you use Bootstrap? 
+is there more coffee?
